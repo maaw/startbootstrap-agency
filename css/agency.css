@@ -130,7 +130,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 nav.navbar.navbar-default.navbar-fixed-top {
-  background-color: rgba(0,0,0,0.7);
+  background-color: #323232;
 }
 
 .navbar-default .navbar-brand {
@@ -302,7 +302,8 @@ section h3.section-subheading {
 
 .service-heading {
 	margin: 15px 0;
-	text-transform: none
+	text-transform: uppercase;
+	color: rgb(52, 152, 219);
 }
 
 #portfolio .portfolio-item {
@@ -804,5 +805,27 @@ img::-moz-selection {
 }
 
 body {
-	webkit-tap-highlight-color: #fed136
+	webkit-tap-highlight-color: #fed136;
+	background-color:#323232;
+}
+
+.sitiosimple-azul{
+	color: rgb(52, 152, 219);
+	display: inline;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 25px;
+	height: auto;
+	line-height: 37px;
+	text-transform: uppercase;
+	width: auto;
+}
+.sitiosimple-gris{
+	color: rgb(136, 136, 136);
+	display: inline;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 25px;
+	height: auto;
+	line-height: 37px;
+	text-transform: uppercase;
+	width: auto;
 }
