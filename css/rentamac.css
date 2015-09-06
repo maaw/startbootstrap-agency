@@ -600,6 +600,9 @@ aside.clients img {
 	margin: 50px auto
 }
 
+section#services {
+	padding-top: 0px	
+}
 section#contact {
 	background-color: #222;
 	background-image: url(../img/map-image.png);
