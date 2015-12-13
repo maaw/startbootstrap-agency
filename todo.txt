@@ -1,4 +1,0 @@
-- Abrir href en otro tab (links sociales)
-- Mejorar chamuyo servicios
-- Ver php para mandar mails
-- Ver logo chiquito

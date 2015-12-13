@@ -689,11 +689,12 @@ footer ul.quicklinks {
 }
 
 ul.social-buttons {
-	margin-bottom: 0
+	margin-bottom: 0;
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size:16px;
 }
 
-ul.social-buttons li a {
-	display: block;
+ul.social-buttons li a i{
 	background-color: #222;
 	height: 40px;
 	width: 40px;
@@ -704,11 +705,16 @@ ul.social-buttons li a {
 	outline: 0;
 	-webkit-transition: all .3s;
 	-moz-transition: all .3s;
-	transition: all .3s
+	transition: all .3s;
+	margin-right: 4px;
+	left:0;
 }
 
-ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li a:active
-	{
+ul.social-buttons li a i:before{
+	display:inline-block;
+}
+
+ul.social-buttons li a:hover i, ul.social-buttons li a:focus i, ul.social-buttons li a:active i{
 	background-color: #fed136
 }
 
